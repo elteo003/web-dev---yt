@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>8d</title>
+    <script>
+        let obj1 = {
+
+            name: "obj1",
+            price: 799
+
+        }
+
+        let obj2 = {
+
+            name: "obj2",
+            price: 899
+
+        }
+
+        let fun = () => {
+
+            obj1.price < obj2.price ? alert("The cheapest one is: " + obj1.name) : alert("The cheapest one is: " + obj2.name);
+
+
+        }
+
+        fun();
+
+
+        /*
+Function Expression:
+// ...existing code...
+let fun = function() {
+obj1.price < obj2.price ? alert("The cheapest one is: " + obj1.name)
+        : alert(" The cheapest one is: " + obj2.name);
+}
+// ...existing code...
+Arrow Function:
+// ...existing code...
+let fun = () => {
+    obj1.price < obj2.price
+        ? alert(" The cheapest one is: " + obj1.name)
+        : alert(" The cheapest one is: " + obj2.name);
+}
+// ...existing code...
+Function Declaration (without let):// ...existing code...
+function fun() {
+    obj1.price < obj2.price
+        ? alert(" The cheapest one is: " + obj1.name)
+        : alert(" The cheapest one is: " + obj2.name);
+}
+// ...existing code...
+*/
+
+    </script>
+</head>
+
+</html>

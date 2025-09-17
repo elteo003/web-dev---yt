@@ -1,0 +1,82 @@
+body {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+    margin: 0;
+}
+
+.btn-reset {
+    background: linear-gradient(180deg, #803216, #9f2a18);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 12px 24px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px, 20px;
+    /* spazio tra icona e testo */
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-reset:hover {
+    background: linear-gradient(180deg, #e85b23, #c9371d);
+    transform: scale(1.05);
+}
+
+.btn-reset:active {
+    transform: scale(0.95);
+}
+
+.icon {
+    font-size: 18px;
+}
+
+.green {
+
+    background: linear-gradient(180deg, #16801f, #189f1d);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 12px 24px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px, 20px;
+    /* spazio tra icona e testo */
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.green:hover {
+    background: linear-gradient(180deg, #2ad62a, #1bbf1b);
+    transform: scale(1.05);
+}
+
+button {
+    margin: 8px;
+}
+
+
+/*
+
+.red {
+
+    background-color: red;
+    color: white;
+
+}
+
+.green {
+
+    background-color: green;
+    color: white;

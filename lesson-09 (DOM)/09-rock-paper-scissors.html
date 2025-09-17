@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ROCK PAPER SCISSORS (the last one?)</title>
+    <script src="09-rps.js" defer></script>
+    <link rel="stylesheet" href="09-rps.css">
+    </link>
+
+</head>
+
+<body>
+    <h1> THE ROCK GAME</h1>
+
+    <button onclick="game('rock');"> ROCK </button>
+    <button onclick="game('paper');"> PAPER </button>
+    <button onclick="game('scissors');"> SCISSORS </button>
+
+    <button id="reset" class="btn-reset" onclick="reset(), changeButtonStatus('reset');">
+        <span class="icon">ℹ️</span>
+        <span>RESET</span>
+    </button>
+    <!-- <button id="reset" class="red" onclick="reset(), changeButtonStatus('RESET','reset');"> RESET</button>-->
+
+    <p class="congrats-message"></p>
+    <p class="status-message"></p>
+    <p class="js-score"></p>
+
+</body>
+
+</html>

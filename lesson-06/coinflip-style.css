@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+
+    /* centratura verticale e orizzontale */
+    display: flex;
+    flex-direction: column;
+    /* mette gli elementi uno sopra l'altro */
+    justify-content: center;
+    /* centratura verticale */
+    align-items: center;
+    /* centratura orizzontale */
+
+    height: 100vh;
+    /* altezza uguale all'altezza della finestra */
+    margin: 0;
+    /* rimuove margini di default */
+}
+
+h1 {
+    color: white;
+}
+
+button {
+    background-color: aliceblue;
+    color: black;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    /* spazio tra titolo e bottone */
+}

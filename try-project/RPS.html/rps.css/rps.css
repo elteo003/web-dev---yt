@@ -1,0 +1,35 @@
+body {
+
+    background-color: black;
+    color: aliceblue;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    margin: 0;
+
+}
+
+
+
+button {
+
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    font-size: 25px;
+    gap: 10px;
+
+
+}
+
+.rps {
+
+    display: flex;
+
+    gap: 10px;
+
+}
