@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> TO DO LIST</title>
+        <link rel="stylesheet" href="toDoList-style.css"></link>
+        <script src="toDoList.js" defer></script> 
+    </head>
+    <body>
+        <p> To DO List</p>
+
+        <div class="to-do-input-grid">
+            <input type="text" id="taskInput" placeholder="Enter a task" onkeydown="if(event.key==='Enter'){addTask();}"></input>
+            <input type="date" id="dateInput"></input>
+            <button id="addTaskButton" onclick="addTask();">Add Task</button>
+        </div>
+
+        <div id="taskList" class="to-do-list"></div>
+    </body>
+</html>

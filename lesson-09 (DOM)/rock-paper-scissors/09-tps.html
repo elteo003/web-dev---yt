@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> THE ROCK GAME</title>
+        <link rel="stylesheet" href="09-tps-style.css">
+        <script src="09-tps-logic.js"></script>
+    </head>
+    <body>
+        <h1> IS THE FINAL 1?</h1>
+
+        <div class="container">
+            <button onclick="game('rock');" class="btn"> <img src="img/rock-emoji.png" class="icon"></button>
+            <button onclick="game('paper');"  class="btn"> <img src="img/paper-emoji.png" class="icon"> </button>
+            <button onclick="game('scissors');"  class="btn"><img src="img/scissors-emoji.png" class="icon"> </button>
+        </div>
+        <button id="reset" class="btn-reset" onclick="reset(), changeButtonStatus('reset');">
+            <span class="icon">ℹ️</span>
+            <span>RESET</span>
+        </button>
+        <!-- <button id="reset" class="red" onclick="reset(), changeButtonStatus('RESET','reset');"> RESET</button>-->
+
+        <p class="congrats-message"></p>
+        <p class="status-message"></p>
+        <p class="js-score"></p>
+
+    </body>
+</html>

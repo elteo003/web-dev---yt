@@ -1,0 +1,39 @@
+body{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    background-color: black;
+    color: white;
+
+}
+
+button{
+
+    background-color: transparent;
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    
+    height: auto;
+
+}
+
+button:active{
+    transform: scale(0.9);
+}
+
+.btn{
+
+    background-color: white;
+    color: black;
+
+
+}
+

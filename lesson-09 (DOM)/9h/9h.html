@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>9H</title>
+    </head>
+    <body>
+        <input class="input" placeholder="write" onkeydown="showKeydown(event);">
+        <button class="btn" onclick="reset()">reset</button>
+        <p class="output"></p> 
+    </body>
+    <script>
+
+        let obj = {
+
+            message: ""
+
+        }
+
+        function showKeydown(event){
+
+            obj.message = event.key;
+
+            document.querySelector('.output').innerHTML += obj.message;
+
+
+        }
+
+        function reset(){
+
+            obj.message = "";
+
+            document.querySelector('.output').innerHTML = obj.message;
+
+        }
+
+
+    </script>
+</html>

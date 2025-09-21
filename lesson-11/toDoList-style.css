@@ -1,0 +1,65 @@
+
+.to-do-input-grid,
+.to-do-list{
+
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+
+}
+
+.to-do-input-grid{
+    margin-bottom: 20px;
+    align-items: stretch;
+}
+
+.btn-delete{
+
+    background-color: darkred;
+    color: white;
+    border: none;
+    transition: all 0.5s;
+     font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn-delete:hover{
+
+    background-color: rgb(182, 0, 0);
+    color: white;
+    border: none;
+    transform: scale(1.25);
+
+}
+.btn-delete:active{
+
+    background-color: rgb(136, 1, 1);
+    color: black;
+    border: none;
+}
+ 
+
+#addTaskButton{
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    transition: all 0.5s;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+#addTaskButton:hover{
+    background-color: rgb(2, 168, 2);
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+#addTaskButton:active{
+    background-color: rgb(1, 136, 1);
+    color: black;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AMAZON CALCULATOR</title>
+        <link rel="stylesheet" href="amzon-calculator-style.css">
+        </link>
+         <script src="amazon-calculator-logic.js"></script>
+    </head>
+    <body>
+
+        <h1> AMAZON CALCULATOR</h1>
+
+        <div class="container">
+
+            <input placeholder="cost of order" class="js-cost-input" onkeydown="handelCostKeydown(event)">
+            <button class="btn-calculate" onclick="calculateTotal('.js-cost-input')">CALCULATE</button>
+            
+        </div>
+
+        <p class="total"></p>
+
+        
+    </body>
+</html>
