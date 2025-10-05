@@ -1,0 +1,36 @@
+{
+    //settings.json
+    // Disattiva suggerimenti automatici
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.quickSuggestions": false,
+    "editor.wordBasedSuggestions": false,
+    // Disattiva hint dei parametri (popup con le firme delle funzioni)
+    "editor.parameterHints.enabled": false,
+    // Disattiva completamente ogni tipo di suggerimento
+    "editor.suggest.showWords": false,
+    "editor.suggest.showSnippets": false,
+    "editor.suggest.showFunctions": false,
+    "editor.suggest.showVariables": false,
+    "editor.suggest.showMethods": false,
+    "editor.suggest.showClasses": false,
+    "editor.suggest.showConstructors": false,
+    "editor.suggest.showFields": false,
+    "editor.suggest.showEvents": false,
+    "editor.suggest.showModules": false,
+    "editor.suggest.showProperties": false,
+    "editor.suggest.showColors": false,
+    "editor.suggest.showFiles": false,
+    "editor.suggest.showFolders": false,
+    "editor.suggest.showKeywords": false,
+    "editor.suggest.showOperators": false,
+    "editor.suggest.showTypeParameters": false,
+    "editor.suggest.showValues": false,
+    "editor.lightbulb.enabled": false,
+    "editor.suggest.preview": false,
+    "editor.suggest.showInlineDetails": false,
+    "editor.suggest.showIcons": false,
+    // Disattiva completamenti inline (ghost text grigio)
+    "editor.inlineSuggest.enabled": false,
+    // Impedisce la selezione automatica dei suggerimenti
+    "editor.suggestSelection": "never"
+}
